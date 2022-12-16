@@ -1,0 +1,56 @@
+
+body{
+    background-image: url("../images/portfolio_background.png");
+    background-repeat:no-repeat;
+
+}
+nav {
+  width:50%;
+  height: 50px;
+  padding: 25px 50px 75px 800px;
+  position: relative;
+}
+nav ul li{
+  
+  font-size: 30px;
+  list-style-type: none;
+  float: left;
+  background-color: rgb(126, 66, 245);
+  margin-right: 1%;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 5px 5px rgb(60, 63, 64);
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item {
+    flex: 0 32%;
+    height: 100px;
+    margin-bottom: 2%; /* (100-32*3)/2 */
+    background-color: rgb(126, 66, 245);
+    position: relative;
+    top: 30px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+  }
+
+  .header {
+  position: relative;
+  top:0px;
+  font-size: 20px;
+  text-align: left;
+  color: white;
+  padding: 1%;
+  }
+  
+  

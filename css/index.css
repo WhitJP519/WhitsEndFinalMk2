@@ -1,0 +1,70 @@
+body {			
+    font-family: "OpenDyslexic Bold", "OpenDyslexic Bold Italic", "OpenDyslexic Regular", "OpenDyslexic Italic"; 
+    color: black; 
+    font-size: 14px; 
+    background-image: url("../images/index-homepage-test.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+	
+}
+
+
+
+h1 {
+    font-family: "OpenDyslexic Regular"; 
+    color: black; 
+    font-size: 32px;
+} 
+
+
+
+h2 {			
+    font-family: arial, sans-serif; 
+    color: black; 
+    font-size: 27px;
+} 
+
+
+
+h3 {
+    font-family: arial, sans-serif; 
+    color: black; 
+    font-size: 16px;
+} 
+
+nav {
+    width:50%;
+    height: 50px;
+	padding: 25px 50px 75px 800px;
+    position: relative;
+}
+nav ul li{
+  
+    font-size: 30px;
+    list-style-type: none;
+    float: left;
+    background-color: rgb(126, 66, 245);
+    margin-right: 2%;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgb(60, 63, 64);
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    background-color: rgb(126, 66, 245);
+    font-size: 50px;
+    border-radius: 15px;
+    position: relative;
+    top: 440px;
+    left: 145px;
+	text-decoration: none;
+    box-shadow: 10px 10px rgb(60, 63, 64);
+}
+button a{
+    color:white;
+    text-decoration: none;
+}
